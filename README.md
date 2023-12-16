@@ -11,9 +11,7 @@ Set up an editor of choice as specified [here](https://docs.flutter.dev/get-star
 
 Download the project.
 
-```bash
-git clone https://github.com/root458/Plant-Disease-Detector.git
-```
+
 
 Run the below command inside the project directory to install necessary packages.
 ```bash
