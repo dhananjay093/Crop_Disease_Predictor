@@ -1,6 +1,7 @@
 import 'dart:io';
 import 'package:image_picker/image_picker.dart';
-import 'package:tflite/tflite.dart';
+//import 'package:tflite/tflite.dart';
+import 'package:flutter_tflite/flutter_tflite.dart';
 
 class Classifier {
   late File imageFile;
@@ -12,6 +13,7 @@ class Classifier {
     await loadModel();
     var result = await classifyImage(imageFile);
     Tflite.close();
+    
     return result;
   }
 
